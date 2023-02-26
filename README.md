@@ -10,15 +10,20 @@ PCA is one of the most prominent dimensionality reduction techniques. It is valu
 
 The __goal__ in PCA is to reduce the number of variables in our dataset. Therefore, the main purpose of PCA is to speed up machine learning. Using fewer variables while still retaining nearly all the original information and variability gives a nice boost to model training, consuming fewer resources and reaching a result faster.
 
-`Eigenvectors and eigenvalues drive PCA at it’s core.` An eigenvector is a line that passes through the data and the algorithm chooses the line that maximises the variability between that line and the data points. The corresponding eigenvalue represents the magnitude of that variability. There are only as many eigenvectors as there are variables in the data.
+`Eigenvectors and eigenvalues drive PCA at it’s core.` Principal components are uncorrelated with each other where;
++ `Eigenvector` - principal component
++ `Eigenvalues` - variances explained by each eigenvector
+
 
 ## Methods to retain principal components
+Unless specified, the `number of principal components will be equal to the number of attributes`. 
 These 2 methods below will be used to determine the optimal number of components to retain:
 1. `cumulative explained variance`:-
   + is important bcs it allows the model to rank the components (eigenvectors) in order of importance & to focus on the most important one when interpreting the results of the analysis.
   + `pca.explained_variance_ratio_`:- used to get the ration of variance (eigenvalue/total eigenvalues).
   + basically the __percentage__ of the explained variance from `pca.explained_variance__`
 2. `scree plot`
+
 
 ## Conditions
 There are 3 conditions to adhere when preparing PCA:
