@@ -17,7 +17,7 @@ The __goal__ in PCA is to reduce the number of variables in our dataset. Therefo
 
 
 ## Methods to retain principal components
-Unless specified, the `number of principal components will be equal to the number of attributes`. 
+Unless specified, the `number of principal components will be equal to the number of attributes`.<br> 
 These 2 methods below will be used to determine the optimal number of components to retain:
 1. `cumulative explained variance`:-
   + is important bcs it allows the model to rank the components (eigenvectors) in order of importance & to focus on the most important one when interpreting the results of the analysis.
