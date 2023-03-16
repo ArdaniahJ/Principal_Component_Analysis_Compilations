@@ -3,14 +3,15 @@ Compilations of explorations on PCA upon various datasets
 
 ## Colab notebook link
 1. [pca_1_hospital_mortality](https://github.com/ArdaniahJ/Principal_Component_Analysis_Compilations/blob/main/PCA1/pca_1_hospital_mortality.py) : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kUwcos7tRANvbmzoun0mjf0FKv-l5rKc?usp=sharing)
-
-
 <p align="center">
-  <img src="https://github.com/ArdaniahJ/Principal_Component_Analysis_Compilations/blob/main/PCA.png" width="700px" height="300px" />
+  <img src="https://github.com/ArdaniahJ/Principal_Component_Analysis_Compilations/blob/main/PCA1/PCA1.png" width="700px" height="300px" />
 </p>
 
 
 2. [pca_2_facebook_metrics](https://github.com/ArdaniahJ/Principal_Component_Analysis_Compilations/blob/main/PCA2/pca_2_facebook_metrics.py) : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WD8lqCOQign0a7oNI7-HvyD61BI6nMxj?usp=sharing)
+<p align="center">
+  <img src="https://github.com/ArdaniahJ/Principal_Component_Analysis_Compilations/blob/main/PCA2/PCA2.png" width="700px" height="300px" />
+</p>
 
 
 # PCA
